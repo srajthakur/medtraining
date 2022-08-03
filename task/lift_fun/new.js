@@ -21,9 +21,12 @@ function myMove(f) {
 
 
     if (f==0|| f==80 ||f==90){
-        if(pos<1200&&f==80 || f==0){
+        if(pos<1200 ) {
+        if(f==80 || f==0){
+            console.log(pos)
+            console.log("lkehfs;gvnemrvb")
             down_array[5]=1
-        }
+        }}
 
     } 
     else if (f==1|| f==81 ||f==91){
@@ -230,11 +233,12 @@ if(pos!=960){
     }
     else {
      
-        if(pos>239 && f==95 ||  f==5 ){
+        if(pos>239){
+            if( f==95 ||  f==5 ){
             
             up_array[0]=1
         }
-       
+    }
         
     }
 
